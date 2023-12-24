@@ -46,4 +46,3 @@ This repository investigates the vulnerabilities of a Deep Neural Network (DNN) 
 ![image](https://github.com/poornikabonam/Comparative-Analysis-of-Defenses-Against-FGSM-Attack-/assets/97566249/ab4e65c6-2d41-4250-be9e-4706be495e9e)
 
 
-## Usage
