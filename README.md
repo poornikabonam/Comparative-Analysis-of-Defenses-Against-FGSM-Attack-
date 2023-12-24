@@ -13,10 +13,10 @@ This repository investigates the vulnerabilities of a Deep Neural Network (DNN) 
 ## Methodology
 
 1. **Model Architecture:**
-   - The DNN model architecture is based on [insert architecture details].
+   - The DNN architecture consists of a flattening layer followed by a dense hidden layer with Rectified Linear Unit (ReLU) activation. A dropout layer is employed for regularization, and the final layer utilizes the softmax activation function. This architecture is implemented to classify images from the MNIST dataset.
 
 2. **Training:**
-   - The model is trained on the MNIST dataset using [insert training details].
+   - Training the model involves loading the MNIST dataset, normalizing pixel values, and then training the model using the Adam optimizer with sparse categorical crossentropy as the loss function. The training process is conducted for a specified number of epochs.
 
 3. **Adversarial Attacks:**
    - Implementations of adversarial attacks, such as the Fast Gradient Sign Method (FGSM), are included.
@@ -36,10 +36,14 @@ This repository investigates the vulnerabilities of a Deep Neural Network (DNN) 
 
 ### Adversarial Attack Impact
 
-[Include visualizations and analysis of the model's performance under adversarial attacks.]
+![image](https://github.com/poornikabonam/Comparative-Analysis-of-Defenses-Against-FGSM-Attack-/assets/97566249/52075ee9-7066-4738-b84f-e5f19606fa09)
+
 
 ### Defense Mechanism Evaluation
 
-[Present results and comparisons of different defense mechanisms.]
+![image](https://github.com/poornikabonam/Comparative-Analysis-of-Defenses-Against-FGSM-Attack-/assets/97566249/d2f8506f-32ca-469f-81f8-e3639f6ebd07)
+
+![image](https://github.com/poornikabonam/Comparative-Analysis-of-Defenses-Against-FGSM-Attack-/assets/97566249/ab4e65c6-2d41-4250-be9e-4706be495e9e)
+
 
 ## Usage
